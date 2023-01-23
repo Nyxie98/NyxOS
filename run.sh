@@ -1,3 +1,5 @@
+mkdir out
+
 gcc -ffreestanding -c src/main.c -o out/main.o
 
 nasm src/kernel.asm -f elf64 -o out/kernel.o
